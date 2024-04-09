@@ -47,10 +47,29 @@ nav{
 .presentation {
     width: 100%;
     height: 450px;
-    object-fit: cover;
     background-image: url('assets/horloger.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
+.presentation2 {
+    width: 100%;
+    height: 450px;
+    background-image: url('assets/mecanismes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.presentation3 {
+    width: 100%;
+    height: 450px;
+    background-image: url('assets/savoirfaire.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 .produit img{
 
 }
