@@ -51,6 +51,13 @@ i{
     color: rgb(135 114 69);
 }
 
+#couleurp{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    flex-direction: column;
+}
+
 .presentation {
     width: 100%;
     height: 450px;
@@ -94,9 +101,26 @@ p{
     text-align: left;
     color: white;
     font-size: large;
+    max-width: 500px;
 }
 h1{
     margin: 0;
     font-family: HelveticaNeueLTCom;
     font
 }
+
+#produits{
+    background-color: black;
+}
+.produit{
+    display: flex;
+    width: 300px;
+    height: 30%;
+    flex-direction: column;
+    
+}
+.produit img{
+    width: 100%;
+    object-fit: cover;
+}
+
