@@ -70,6 +70,17 @@ nav{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.pied {
+    text-decoration: none;
+    margin-left: 100px;
+    color: black;
+    transition: all .3s ease-in-out;
+}
+
+.pied:hover{
+   color: rgb(135 114 69);
+}
 .produit img{
 
 }
