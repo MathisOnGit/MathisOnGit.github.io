@@ -9,8 +9,8 @@ html, body{
 nav{
    display: flex;
    justify-content: space-between;
-   margin: 5px;
    align-items: center;
+   padding: 0  10%;
 }
 
 .logo{
@@ -24,7 +24,6 @@ nav{
 }
 .collections {
     text-decoration: none;
-    margin-left: 100px;
     color: black;
     transition: all .3s ease-in-out;
 }
@@ -33,9 +32,18 @@ nav{
    color: rgb(135 114 69);
 }
 
+i{
+    opacity: 0;
+    transition: all .3s ease-in-out;
+}
+
+#iconehistoire:hover i{
+    opacity: 1;
+}
+
+
 .notrehistoire{
     text-decoration: none;;
-    margin-right: 100px;
     color: black;
 }
 
@@ -79,9 +87,7 @@ nav{
 .pied:hover{
    color: rgb(135 114 69);
 }
-.produit img{
 
-}
 p{
     margin: 0;
 }
