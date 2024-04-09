@@ -1,0 +1,31 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html, body{
+   font-family: 'Poppins', sans-serif;
+   margin: 0;
+}
+
+nav{
+   display: flex;
+   justify-content: space-between;
+   margin: 5px;
+   align-items: center;
+}
+
+.logo{
+   width: 160px;
+   align-self: center;
+}
+
+.logo img{
+   width: 100%;
+   object-fit: cover;
+}
+.link {
+   list-style: none;
+}
+
+.produit img{
+
+}
