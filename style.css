@@ -1,5 +1,12 @@
 /* importation de la police 'Poppins' de Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+@font-face {
+    font-family: "HelveticaNeueLT";
+    src: url("assets/HelveticaNeueLTCom-UltLt.ttf")
+    format("truetype");
+}
+
+
 
 html, body{
    font-family: 'Poppins', sans-serif;
@@ -97,7 +104,7 @@ i{
 
 p{
     margin: 0;
-    font-family: HelveticaNeueLTCom;
+    font-family:  "HelveticaNeueLT", sans-serif;
     text-align: left;
     color: white;
     font-size: large;
@@ -105,8 +112,14 @@ p{
 }
 h1{
     margin: 0;
-    font-family: HelveticaNeueLTCom;
-    font
+    font-size: 50px;
+}
+
+#produits{
+    display: flex;
+    align-items: center  ;
+    flex-direction: column;
+    color: white;
 }
 
 #produits{
@@ -117,10 +130,24 @@ h1{
     width: 300px;
     height: 30%;
     flex-direction: column;
-    
+    text-align: center;
 }
+
+.produit h2{
+    font-family:  "HelveticaNeueLT", sans-serif;
+}
+
 .produit img{
     width: 100%;
     object-fit: cover;
+}
+
+.descriptif-produit h2{
+    color: white;
+}
+
+.collection-watches{
+    display: flex;
+    gap: 5%;
 }
 
