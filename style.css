@@ -102,14 +102,24 @@ i{
    color: rgb(135 114 69);
 }
 
-p{
+/*p{
     margin: 0;
     font-family:  "HelveticaNeueLT", sans-serif;
     text-align: left;
     color: white;
     font-size: large;
     max-width: 500px;
+}*/
+
+p{
+  background-position: center;
+  background-size: cover;
+  color: #ffffff;
+  padding: 1em;
+  text-align: left;
+  max-width: 500px;
 }
+
 h1{
     margin: 0;
     font-size: 50px;
