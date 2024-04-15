@@ -183,10 +183,7 @@ h1{
     gap: 5%;
 }
 
-.collection-watches :hover{
-    data-aos="fade-up";
-    data-aos-duration="3000";
-}
+
 
 .bouton-principal{
     display: inline-flex;
